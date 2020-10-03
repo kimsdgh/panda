@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <title>To-Do List</title>
+        <script src="app.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div id="todo-box">
+                <input type="text" placeholder="Enter an Activity ..." name="" id="todo-content">
+                <button class="add-item" id="add-item">
+                    <i class="	fa fa-plus"></i>
+                </button>
+            </div>
+            <div class="lists">
+                <ul id="todo-list" class="list">
+                    <li class="todo-item list-item">
+                        add a new Item
+                        <div class="btns">
+                            <button class="remove">
+                                <i class="fa fa-trash-o"></i>
+                            </button>
+                            <button class="uncomplete">
+                                <i class="fa fa-check-square-o"></i>
+                            </button>
+                        </div>
+                    </li>
+                </ul>
+                <ul id="done-list" class="list">
+                    <!-- <li class="done-item list-item">
+                        done this Item1
+                        <div class="btns">
+                            <button class="remove">
+                                <i class="fa fa-trash-o"></i>
+                            </button>
+                            <button class="completed">
+                                <i class="fa fa-check-square"></i>
+                            </button>
+                        </div>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
